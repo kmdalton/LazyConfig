@@ -1,8 +1,8 @@
 return {
-  -- add gruvbox
-  { "ellisonleao/gruvbox.nvim" },
+  { "rebelot/kanagawa.nvim" },
+  {"xiantang/darcula-dark.nvim"},
+  {"morhetz/gruvbox.nvim"},
 
-  -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
     opts = {

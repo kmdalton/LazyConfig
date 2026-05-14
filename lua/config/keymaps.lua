@@ -9,3 +9,6 @@ vim.keymap.del("i", "<A-j>")
 vim.keymap.del("i", "<A-k>")
 vim.keymap.del("v", "<A-j>")
 vim.keymap.del("v", "<A-k>")
+
+-- Open info pane for Pyright 
+vim.keymap.set("n", "?", vim.diagnostic.open_float)
